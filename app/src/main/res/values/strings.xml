@@ -6,4 +6,18 @@
     <string name="horoscopo">Horoscopo</string>
     <string name="palma">Palma</string>
     <string name="suerte">Suerte</string>
+
+
+    <string name="Aries">Aries</string>
+    <string name="Tauro">Tauro</string>
+    <string name="Geminis">Geminis</string>
+    <string name="Cancer">Cancer</string>
+    <string name="Leo">Leo</string>
+    <string name="Virgo">Virgo</string>
+    <string name="Libra">Libra</string>
+    <string name="Escorpio">Escorpio</string>
+    <string name="Sagitario">Sagitario</string>
+    <string name="Capricornio">Capricornio</string>
+    <string name="Acuario">Acuario</string>
+    <string name="Picis">Picis</string>
 </resources>
