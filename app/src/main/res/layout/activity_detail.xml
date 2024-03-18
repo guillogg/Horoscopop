@@ -5,27 +5,42 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@color/primary"
-    
+
     tools:context=".ui.detail.DetailActivity">
 
     <ImageView
         android:id="@+id/ivDetail"
         android:layout_width="0dp"
         android:layout_height="300dp"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
+        android:background="@color/red"
         app:layout_constraintEnd_toEndOf="parent"
-        android:background="@color/red"/>
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
 
     <TextView
+        android:id="@+id/tvTitle"
+        style="@style/Title"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        tools:ignore="MissingConstraints"
-        style="@style/Title"
-        app:layout_constraintTop_toBottomOf="@+id/ivDetail"
-        app:layout_constraintStart_toStartOf="parent"
+        android:text="Prueba"
         app:layout_constraintEnd_toEndOf="parent"
-        android:text="Prueba"></TextView>
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/ivDetail"
+        tools:ignore="MissingConstraints" />
+
+    <TextView
+        android:id="@+id/tvBody"
+        style="@style/Body"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/tvTitle"
+        tools:text="jlkdsakjldajkdajlakjdslj kadjlkajlkdsjlkasljdk aljksjdkl
+        jalksdjlkasjdk ajlksdjlka jksdjklasdkasdkl jaksdjkaskjdaksdj klasjd
+ ajskldjkasdjkladsjlk ajkdkasjdlkasjkld
+jkadsjklasdkljdasjkljadkjkdajkadjlkdjlkadjlkadjkldakldkaladkl" />
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>
