@@ -1,9 +1,11 @@
 package com.example.horoscopop.data.providers
 
-import com.example.horoscopop.domain.HoroscopoInfo
-import com.example.horoscopop.domain.HoroscopoInfo.*
+import com.example.horoscopop.domain.model.HoroscopoInfo
+import com.example.horoscopop.domain.model.HoroscopoInfo.*
+import javax.inject.Inject
 
-class HoroscopoProvider {
+
+class HoroscopoProvider @Inject constructor() {
     fun getHoroscopo(): List<HoroscopoInfo> {
         return listOf(
             Aries,
