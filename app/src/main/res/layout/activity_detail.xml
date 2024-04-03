@@ -12,10 +12,18 @@
         android:id="@+id/ivDetail"
         android:layout_width="0dp"
         android:layout_height="300dp"
-        android:background="@color/red"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
+<ImageView
+    android:id="@+id/ivBack"
+    android:src="@drawable/baseline_arrow_back_24"
+    android:padding="24dp"
+    app:tint="@color/gold"
+    app:layout_constraintTop_toTopOf="parent"
+    app:layout_constraintStart_toStartOf="parent"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"/>
 
     <TextView
         android:id="@+id/tvTitle"
@@ -31,6 +39,7 @@
     <TextView
         android:id="@+id/tvBody"
         style="@style/Body"
+        android:gravity="center"
         android:layout_width="0dp"
         android:layout_height="0dp"
         app:layout_constraintBottom_toBottomOf="parent"
@@ -41,6 +50,16 @@
         jalksdjlkasjdk ajlksdjlka jksdjklasdkasdkl jaksdjkaskjdaksdj klasjd
  ajskldjkasdjkladsjlk ajkdkasjdlkasjkld
 jkadsjklasdkljdasjkljadkjkdajkadjlkdjlkadjlkadjkldakldkaladkl" />
+
+    <ProgressBar
+        android:id="@+id/pb"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:indeterminateTint="@color/gold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/tvTitle"/>
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>
